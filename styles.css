@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg") no-repeat fixed;
+    background-size: cover;
+    margin: 50px;
+}
+.brand
+{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.main
+{
+    margin-top: 100px;
+    padding-top: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "box1 box2";
+    grid-gap: 20px;
+}
+.main img
+{
+    padding-left: 50px;
+}
+.text 
+{
+    font-family: "Open Sans", sans-serif;
+    color: aliceblue;
+    padding-left: 30px;
+}
+.text h1
+{
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.text p {
+    line-height: 2rem;
+}
+.main button
+{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: aliceblue;
+    border: none;
+    width: 40%;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 5px 5px 20px black;
+}
+button:hover 
+{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: hsl(300, 69%, 71%);
+}
+.social-media
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media button {
+    margin: 0 10px 0 10px;
+    background-color: hsl(257, 40%, 49%);
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid snow;
+    border-radius: 100%;
+}
+.social-media button:hover 
+{
+    cursor: pointer;
+    color:  hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter { width: 14px;}
